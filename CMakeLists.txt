@@ -14,6 +14,6 @@ install(TARGETS ${PROJECT_NAME} EXPORT PosixRandomConfig
         LIBRARY DESTINATION lib
         RUNTIME DESTINATION bin)
 
-install(EXPORT PosixRandomConfig DESTINATION shares/PosixRandom/cmake)
+install(EXPORT PosixRandomConfig DESTINATION share/PosixRandom/cmake)
 
 export(TARGETS ${PROJECT_NAME} FILE PosixRandomConfig.cmake)
