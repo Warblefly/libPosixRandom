@@ -1,0 +1,7 @@
+This uses the BSD random() function in the hope of being able to use it in mingw32 programs.
+
+The random() program is Copyright (c) 1983 Regents of the University of California, and all rights are reserved.
+
+Please see the source code for the licence under which the program is released.
+
+I am john@johnwarburton.net.
