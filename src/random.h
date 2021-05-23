@@ -3,6 +3,6 @@
 #include <stddef.h>
 
 char *setstate(char *);
-char *initstate(int, char *, size_t);
+char *initstate(u_int, char *, int);
 long random(void);
 void srandom(unsigned);
